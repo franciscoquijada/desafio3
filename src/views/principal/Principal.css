@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .index {
+    height: 100%;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+  }
+  
+  .character-row td {
+    border-bottom: 1px solid white;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+  
+  .controls div {
+    cursor: pointer;
+  }
+
+  .input-size {
+    width: 40%;
+  }
